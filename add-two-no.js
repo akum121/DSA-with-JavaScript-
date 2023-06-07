@@ -1,9 +1,7 @@
-//const prompt = require('prompt-sync')()
-let a = 10;
+const prompt = require('prompt-sync')()
 
-//parseInt(prompt("Enter the value of a = "));
-let b = 20;
-//parseInt(prompt("Enter the value of b = "));
+let a = parseInt(prompt("Enter the value of a = "));
+let b = parseInt(prompt("Enter the value of b = "));
 
 // let sum = a+b;
 // console.log(sum);
