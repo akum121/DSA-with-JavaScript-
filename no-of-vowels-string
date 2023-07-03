@@ -1,0 +1,20 @@
+const prompt = require('prompt-sync')()
+
+let userInput = prompt("Enter a string: ");
+
+function UpperCase(userInput) {
+    let count = 0;
+    for (let i = 0; i < userInput.length; i++) {
+        // Check if the current character is a vowel
+        if (userInput[i] === 'a' || userInput[i] === 'e' || userInput[i] === 'i' || userInput[i] === 'o' || userInput[i] === 'u') {
+          // If it is, increment the count variable
+          count++;
+        }
+    }
+    return count;
+}
+
+// const capitalizedString = UpperCase(userInput);
+console.log(UpperCase(userInput));
+
+// UpperCase
